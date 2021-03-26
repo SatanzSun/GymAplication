@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RunningExcercise"
+    android:background="@drawable/addexcercise">
+
+
+    <TextView
+        android:id="@+id/exercise_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:fontFamily="@font/arbutus_slab"></TextView>
+
+    <LinearLayout
+        android:id="@+id/layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="318dp"
+        android:layout_height="113dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/sessionbutton"
+            android:drawableRight="@color/white"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Add set"
+            android:fontFamily="@font/arbutus_slab"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white">
+
+        </Button>
+
+        <Button
+            android:id="@+id/save_exercise"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/sessionbutton"
+            android:drawableRight="@color/white"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:onClick="saveExerciseAndReturn"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Save exercise"
+            android:textAllCaps="false"
+            android:fontFamily="@font/arbutus_slab"
+            android:textSize="15dp"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

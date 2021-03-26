@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/archivo_black</item>
+        <item>@font/asset</item>
+        <item>@font/averia_sans_libre_light</item>
+        <item>@font/bangers</item>
+        <item>@font/carter_one</item>
+        <item>@font/faster_one</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/poller_one</item>
+        <item>@font/seymour_one</item>
+        <item>@font/ultra</item>
+        <item>@font/wendy_one</item>
+    </array>
+</resources>
